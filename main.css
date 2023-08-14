@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form h2 {
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+form {
+    text-align: center;
+    padding: 20px;
+}
+
+form input {
+    font-size: 18px;
+}
+
+form button {
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 18px;
+    display: inline-block;
+}
+
+ul li {
+    text-align: center;
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.completed {
+    text-decoration: line-through;
+    cursor: pointer;
+}
